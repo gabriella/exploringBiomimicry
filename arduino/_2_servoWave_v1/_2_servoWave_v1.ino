@@ -17,7 +17,6 @@ Servo servos[NUM_SERVOS];
 const int FIRST_SERVO_PIN=2;
 
 int nextServoValue = 120;
-
 int currentServo = 0;
 
 const int UPDATE_INTERVAL = 1000;
