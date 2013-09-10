@@ -78,7 +78,7 @@ out[1] = byte(int(elbowAngle));
 
 myPort.write(out);
  
-  stroke(255);
+ stroke(255);
   fill(240, 0, 0, 200);
   ellipse(shoulder.x, shoulder.y, 20, 20);
   ellipse(elbow.x, elbow.y, 15, 15);
